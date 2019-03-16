@@ -29,7 +29,7 @@ function computerPoint() {
     allBlocksArr[randomNum].classList.add('red');
     let computerCount = document.getElementById('computer-count');
     computerCount.innerHTML = Number(computerCount.innerHTML) + 1;
-    if(Number(computerCount.innerHTML) == 2) {
+    if(Number(computerCount.innerHTML) == 10) {
         youLost();
         return;
     }
